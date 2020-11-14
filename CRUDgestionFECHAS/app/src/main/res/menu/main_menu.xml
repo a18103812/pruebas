@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_producto"
+            android:icon="@drawable/productoch"
+            android:title="Cycling" />
+
+        <item
+            android:id="@+id/nav_area"
+            android:icon="@drawable/areach"
+            android:title="Bus" />
+
+        <item
+            android:id="@+id/nav_categoria"
+            android:icon="@drawable/categoriach"
+            android:title="Plane" />
+        <item
+            android:id="@+id/nav_marca"
+            android:icon="@drawable/marcach"
+            android:title="Plane" />
+    </group>
+
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login_icon"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_usuario"
+                    android:icon="@drawable/usaurioch"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_icon"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_rvw_icon"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>

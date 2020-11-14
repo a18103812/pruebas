@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">CONSUMIENDO API</string>
+    <string name="navigation_drawer_open">Abrir Navegacion DRAWER</string>
+    <string name="navigation_drawer_close">Cerrar Navegacion DRAWER</string>
+
+</resources>

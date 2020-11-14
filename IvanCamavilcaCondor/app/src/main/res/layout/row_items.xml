@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:padding="2dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/codigo"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:layout_below="@+id/codigo"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/nombreProducto"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:layout_below="@+id/nombreProducto"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/precioProducto"
+            />
+</RelativeLayout>

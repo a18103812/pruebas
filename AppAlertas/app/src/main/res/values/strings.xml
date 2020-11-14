@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gestion de Fechas</string>
+    <string name="navigation_drawer_open">Abrir navegacion drawer</string>
+    <string name="navigation_drawer_close">Cerrar navegacion drawer</string>
+    <string name="nav_header_title">Eventos</string>
+    <string name="nav_header_subtitle">www.localhost/api</string>
+    <string name="nav_header_desc">http://192.168.1.9/api</string>
+    <string name="action_settings">Configuracion</string>
+
+    <string name="menu_home">Casa</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+
+
+</resources>

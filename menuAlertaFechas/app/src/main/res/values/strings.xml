@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FECHAS</string>
+    <string name="navigator_draw_open">Abrir navegacion drawwer</string>
+    <string name="navigator_draw_close">Cerrar navegacion Drawer</string>
+
+
+</resources>

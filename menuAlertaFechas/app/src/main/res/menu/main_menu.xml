@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Casa" />
+
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/product"
+            android:title="Producto" />
+
+        <item
+            android:id="@+id/nav_marcas"
+            android:icon="@drawable/marc"
+            android:title="Marca" />
+
+        <item
+            android:id="@+id/nav_categorias"
+            android:icon="@drawable/category_icon"
+            android:title="Categoria" />
+    </group>
+
+
+    <item android:title="Perfil">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login_icon"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_usuario"
+                    android:icon="@drawable/user_icon"
+                    android:title="Perfil" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Salir" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Communicacion">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_icon"
+                android:title="Compartir" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_icon"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+
+</menu>
+
